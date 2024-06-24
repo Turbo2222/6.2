@@ -6,9 +6,9 @@ counter::counter() {
 	count = 5;
 };
 
-//counter::counter(int res) {
- // SetCount(res);
-//}
+counter::counter(int res) {
+  SetCount(res);
+}
 
 void counter::SetCount(int yesCount) {
 	this->count = yesCount;

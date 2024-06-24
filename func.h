@@ -4,7 +4,7 @@ private:
     int count;
 public:
     counter();
-    counter(int res) {};
+    counter(int res);
 
     void SetCount(int yesCount);
 
